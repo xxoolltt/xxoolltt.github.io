@@ -6,16 +6,37 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 一条没有尽头的道路，我们乐在其中。
+email: xxoolltt@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+    曾经 : 单片机 - arm - FPGA - pcb - 焊板子<br>
+    现在 : c++ - java  - Android <br>
+    将来 : javaScript - python - 后端/全栈<br>
+    我们的征途是星辰大海<br>
+    
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://xxoolltt.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username: xxoolltt 
 
-# Build settings
-markdown: kramdown
+# Permalinks
+
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+collections:
+  texts:
+    output: true
+    premalink: pretty 
+
+
+    # Build settings
+markdown: kramdown 
+redcarpet:
+  extensions:
+    - fenced_code_blocks
+    - no_intra_emphasis
+    - strikethrough
+    - autolink
+    - tables
