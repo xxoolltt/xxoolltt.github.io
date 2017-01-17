@@ -19,11 +19,11 @@ $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: rgba(222, 207, 186, 0.5);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1000px;
 
 $on-palm:          600px;
 $on-laptop:        800px;

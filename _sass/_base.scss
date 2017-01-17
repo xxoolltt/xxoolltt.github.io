@@ -7,16 +7,21 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
+html {
+    height: 100%;
+}
 
 
 /**
  * Basic styling
  */
 body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #ede5d9;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
@@ -132,7 +137,6 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {
