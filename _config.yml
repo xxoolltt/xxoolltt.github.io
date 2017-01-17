@@ -28,11 +28,12 @@ encoding: utf-8
 collections:
   texts:
     output: true
-    premalink: pretty 
 
 
     # Build settings
 markdown: kramdown 
+highlight: true 
+
 redcarpet:
   extensions:
     - fenced_code_blocks
