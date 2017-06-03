@@ -1,5 +1,10 @@
-Android 架构
-=========================
+---
+collection: texts
+layout: post
+title:  "Android架构组件"
+date:   2017-6-2 
+category: Android
+---
 
 翻译原文 [Andorid and Architecture](https://android-developers.googleblog.com/2017/05/android-and-architecture.html?utm_source=Android+Weekly&utm_campaign=293483b394-android-weekly-258&utm_medium=email&utm_term=0_4eb677ad19-293483b394-338078437) 
 
